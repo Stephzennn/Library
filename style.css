@@ -1,0 +1,50 @@
+table{
+    border: red solid;
+    padding: 2%;
+    width: 100%;
+    
+    
+    background-color: #f9fafa;
+    color: #131313;
+    border: 1px;
+    border-radius: 15PX;
+}
+
+tr{
+    border: brown solid;
+    padding: 2%;
+    border: 20px;
+    
+}
+.Headline{
+    
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td{
+    border: white solid;
+    border-radius: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.FirstContainer {
+    /*border: blue solid;*/
+    padding: 0%;
+    margin: 0%;
+    
+    grid-column: 2/ span 1;
+    grid-row: 2/ span 1;
+}
+body {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr auto;
+    grid-template-columns: 1fr 5fr 1fr auto;
+    padding: 0%;
+    margin: 0%;
+    padding: 10%;
+
+
+}
