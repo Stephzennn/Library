@@ -1,5 +1,5 @@
 table{
-    border: red solid;
+    
     padding: 2%;
     width: 100%;
     
@@ -11,7 +11,7 @@ table{
 }
 
 tr{
-    border: brown solid;
+    
     padding: 2%;
     border: 20px;
     
@@ -31,7 +31,7 @@ td{
 }
 
 .FirstContainer {
-    border: blue solid;
+    
     padding: 0%;
     margin: 0%;
     gap: 20%;
@@ -72,7 +72,7 @@ button:hover {
 button.form {
     min-width: none;
     min-height: none;
-    border: red solid;
+    
 }
 
 
@@ -86,13 +86,4 @@ button.form {
 
 }
 
-.inputTable tr:nth-child(1) td:nth-child(1) div>input{
-    border: red solid;
-}
-
-.crap {
-    color: red ;
-    border-color: pink solid;
-
-}
 
